@@ -1,8 +1,16 @@
+* {
+  background-color: rgb(rgb(44, 3, 3));
+}
+
 .hero {
   background-image: url("img/download.png");
   background-repeat: none;
   background-size: cover;
 
+}
+
+.hero-body {
+  background-color: rgb(44, 3, 3);
 }
 
 .nav-brand {
@@ -20,5 +28,7 @@
 
 .footer {
   color: white;
-  background-color: rgb(140, 156, 5);
+  background-color: rgb(11, 192, 41);
+  
 }
+
