@@ -12,11 +12,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Xhantilomzi da AXE CV</title>
     <style>
+html {
+    scroll-behavior: smooth;
+}
+
         body {
             background-image: url("img/main-qimg-a1ff4f317b6129b8f69ca10a39e052c3.png");
             background-attachment: fixed;
-            backface-visibility: visible;
-            background-blend-mode: darken;
+            /* backface-visibility: visible; */
+            /* background-blend-mode: darken; */
             background-repeat:no-repeat;
             background-size: cover;
 
@@ -35,6 +39,10 @@ img {
 
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+p {
+    color: #ddd;
 }
 
     
@@ -82,14 +90,14 @@ img:hover {
                                     <section class="section">
                                         <div class="container">
                                             <div class="content has-text-centered">
-                                                <h1 class="title has-text-weight-bold">About</h1>
+                                                <h1 class="title has-text-weight-bold" style="color:#ddd;">About</h1>
                                             </div>
                                         </div>
                                     <div class="container has-text-centered">
                                 <div class="content has-text-centered">
                             <div class="introduction">
                         <h3 id="about">
-                    <span > A Brief introduction about Myself</span>
+                    <span style="color:#ddd;"> A Brief introduction about Myself</span>
                 </h3>
             <div>
         <p> Hello! I am Xhantilomzi Jacob. Web Developer,
@@ -107,7 +115,7 @@ A good level of accuracy and attention to detail,</p>
                     </div>
                         </div>
                         </section>                                     
-                      <section class="section">                        
+                      <section class="section is-small">                        
                 <div class="tile is-ancestor">
             <div class="tile is-vertical is-6">
         <div class="tile">
@@ -179,26 +187,20 @@ A good level of accuracy and attention to detail,</p>
         </div><br>
             <div class="columns">
                 <div class="column is-one-third">
-                    <figure class="imghvr-stack-up">
+                    <figure class="imghvr-fade" style="background-color:transparent;">
                         <img  src="img/main-qimg-a1ff4f317b6129b8f69ca10a39e052c3.png">
                             <figcaption>
                                 <h5 class="ih-fade-down ih-delay-sm">My First Project the CV</h5>
-                                    <p class="ih-zoom-in ih-delay-md">
-                                        <i>"I have the simplest tastes, I am always satisfied with the best."</i>
-                                        </p>
-                                        <a class="ih-fade-up ih-delay-lg button" href="#"> Read More
+                                        <a class="ih-fade-up ih-delay-lg button" href="#">
                                     </a>
                                 </figcaption>
                         </figure>         
                     </div>
                 <div class="column is-one-third">
-            <figure class="imghvr-stack-up">
+            <figure class="imghvr-fade" style="background-color:transparent;">
         <img class="is-rounded" src="img/avatar.jpg">
     <figcaption>
 <h5 class="ih-fade-down ih-delay-sm">Jon Chretien Project</h5>
-    <p class="ih-zoom-in ih-delay-sm">
-        <i>"I have the simplest tastes, i am"</i>
-            </p>
                 <a class="ih-fade-up ih-delay-lg button" href="https://xhantighost.github.io/project2-Jon-Chretien/index.html">
                     Read More
                     </a>
@@ -207,14 +209,11 @@ A good level of accuracy and attention to detail,</p>
                                 </figure>
                                     </div>
                                         <div class="column is-one-third">
-                                        <figure class="imghvr-stack-up">         
-                                    <img class="is-rounded" src="img/what.jpg">
+                                        <figure class="imghvr-fade" style="background-color:transparent;" >         
+                                    <img src="img/what.jpg">
                                 <figcaption>
                             <h5 class="subtitle is-5">My Quiz Project</h5>
-                        <p class="ih-zoom-in ih-delay-sm">
-                    <i>"I have the simplest tastes, i am"</i>
-                </p>
-            <a class="ih-fade ih-delay-lg button" href="https://xhantighost.github.io/project-3-quiz/index.php" >
+            <a href="https://xhantighost.github.io/project-3-quiz/index.php">
             Read More
         </a>
     </figcaption>
